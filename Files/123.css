@@ -1,0 +1,41 @@
+img{
+	margin: auto;
+	width: 30%;
+	float: left;
+	padding: 12px;
+	margin: .7%;
+}
+body{
+	border: 20px solid lightgrey;
+
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: left ;
+	padding-left: 30px;
+	font-family: 'Spectral SC', serif;
+	font-size: 18px;
+	text-transform: capitalize;
+	padding-right: 30px;
+
+	
+
+
+
+
+}
+h2{
+	font-family: 'Spectral SC', serif;
+	text-align: left;
+	text-decoration: bold;
+}
+h4{
+	text-align: left;
+	letter-spacing: 4px;
+	text-decoration: bold;
+}
+td{
+	border-left:  10px solid lightgrey;
+}
+hr{
+	border-bottom:  10px solid lightgrey;
+}

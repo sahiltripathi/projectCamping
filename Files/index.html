@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Roboto:300,400,500">
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
+	<meta charset="utf-8">
+
+</head>
+<body>
+
+
+
+  <img class="image1" src="front3.jpg">
+  <img class="image1" src="front1.jpg">
+  <img class="image1" src="front2.jpeg">
+  <img class="image1" src="front4.jpg">
+  <img class="image1" src="front5.jpg">
+  <img class="image1" src="front6.jpeg">
+  <img class="image1" src="front7.jpg">
+
+
+
+  
+
+
+ 	
+<div class="nav">
+
+	<ul>
+		<li><a href="newtesting.html">CONTACT</a></li>
+        <li><a href="video.html">VIDEOS</a></li>     
+        <li><a href="plans.html">PLANING</a></li>
+        <li><a href="product.html">CAMPING</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="index.html">HOME</a></li>
+
+	</ul>
+	
+	</div>
+
+
+	<h1 id="title">WELCOME TO THE CAMPING WORLD</h1>
+</div>
+<br><br>
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image1");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+
+
+
+ 	
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
